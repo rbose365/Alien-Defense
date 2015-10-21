@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Alien Defense.jnlp">
+  <information>
+    <title>Alien Defense</title>
+    <vendor>Unknown</vendor>
+    <description>Alien Defense</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Alien-Defense.jar" size="404" download="null" />
+    <jar href="commons-collections-3.2.jar" size="571259" download="null" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <jfx:javafx-desc  width="1024" height="768" main-class="Scene1"  name="Alien Defense" />
+  <update check="background"/>
+</jnlp>
